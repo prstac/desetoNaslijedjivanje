@@ -11,8 +11,9 @@ public class Zaposlenik {
         System.out.println("Zaposlenik " + ime +  " ima placu " + placa);
     }
 
+    /*
     void radi() {
         System.out.println(ime + " radi");
-    }
+    }*/
 
 }

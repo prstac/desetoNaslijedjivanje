@@ -1,0 +1,6 @@
+//DZ
+/*Kreiraj klase Životinja, Pas, Mačka. Pas i Mačka nasljeđuju Životinja.
+Sve klase imaju naziv i metodu glasajSe. Svaka metoda vraća različiti
+zvuk glasanja. Kreiraj niz nekoliko različitih životinja i ispiši ih
+zajedno s glasom koji imaju.
+*/
