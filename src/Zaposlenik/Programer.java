@@ -5,7 +5,7 @@ public class Programer extends  Zaposlenik{
         super(ime, placa);
     }
 
-    void Radi() {
+    void radi() {
         System.out.println(ime + " pise kod");
     }
 }

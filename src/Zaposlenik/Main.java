@@ -10,12 +10,12 @@ public class Main {
         var manager = new Manager("Manager", 3);
 
         System.out.println("Što radi programer?");
-        programer.Radi();
+        programer.radi();
 
         System.out.println();
 
         System.out.println("Što radi manager?");
-        manager.Radi();
+        manager.radi();
 
         System.out.println();
 
@@ -26,8 +26,10 @@ public class Main {
 
         System.out.println("Podaci o svim zaposlenicima:");
         zaposlenici.forEach(z -> z.getInfo());
+
         System.out.println();
+
         System.out.println("Svi rade:");
-        zaposlenici.forEach(z -> z.Radi());
+        zaposlenici.forEach(z -> z.radi());
     }
 }
