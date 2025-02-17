@@ -6,6 +6,6 @@ public class Manager extends Zaposlenik{
     }
 
     void Radi() {
-        System.out.println( ime + " Upravlja timom");
+        System.out.println( ime + " upravlja timom");
     }
 }
