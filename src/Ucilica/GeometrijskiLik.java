@@ -7,7 +7,7 @@ Ne mozemo instancirati(kreirati) objekte iz apstraktne klase
 Apstraktna klasa mora biti naslijeđena,
 Moramo implementirati sve apstraktne metode asptraktne klase;
  */
-public abstract class GeometrijskiLik {
+public abstract class GeometrijskiLik implements Comparable<GeometrijskiLik>{
     private String naziv;
     public abstract double opseg();
     public abstract double povrsina();
@@ -23,5 +23,10 @@ public abstract class GeometrijskiLik {
 
     GeometrijskiLik(String naziv) {
         this.naziv = naziv;
+    }
+
+    @Override
+    public int compareTo(GeometrijskiLik o) {
+        return Double.compare(povrsina(), o.povrsina());
     }
 }
